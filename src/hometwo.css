@@ -1,5 +1,5 @@
 .mainContent{
-   background: url('https://res.cloudinary.com/edifice-solutions/image/upload/v1702296695/background--pleso_d2fbm5.jpg');
+   background: url('https://res.cloudinary.com/edifice-solutions/image/upload/v1702374010/bg-auth0-signin_d7dtur.svg');
    background-repeat: no-repeat;
    background-size: cover;
     width: 100%;
@@ -12,7 +12,7 @@
     min-height: 280px;
     background: white;
    
-    border-radius: 14px;
+    border-radius: 10px;
     padding: 0px;
 
 }
@@ -31,6 +31,12 @@
     margin-top: 20px;
 }
 
+.welcome{
+    text-align: center;
+    font-size:20px;
+    font-weight: 400;
+}
+
 .mainhead{
     color:#e7b23f;
     text-align: center;
@@ -39,9 +45,15 @@
     margin: 15px;
 }
 
-.form-control {
-    border: 0;
+
+.subtitle{
+    color:grey;
+    font-size:14px;
+    text-align: center;
 }
+/* .form-control {
+    border: 0;
+} */
 
 .borderdiv{
     border-top: 1px solid lightgrey;
@@ -49,15 +61,24 @@
 }
 
 .next{
-    background-color: #e7b23f;
+    background-color:  #3F59E4;
     color: white;
     text-align: center;
-    padding:5px 30px;
-    border-radius: 20px;
+    padding:11px 30px;
+    border-radius:8px;
     margin-top: 30px;
    
 
     
+}
+
+.purple{
+    color:#3F59E4;
+    font-size:14px;
+}
+
+.next:hover{
+    color:white;
 }
 
 .circle{
@@ -86,4 +107,8 @@
 
 .colorme{
     color:#e7b23f;
+}
+
+.footerimage{
+    width:80%;
 }
